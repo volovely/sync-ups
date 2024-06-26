@@ -54,14 +54,14 @@ struct RecordMeeting {
       case .alert:
         return .none
       case .endMeetingButtonTapped:
-        // TODO: Alert to confirm ending meeting
+        state.alert = .endMeeting
         return .none
         
         
       case .nextButtonTapped:
         guard state.speakerIndex < state.syncUp.attendees.count - 1
         else {
-          // TODO: Alert to confirm ending meeting
+          state.alert = .endMeeting
           return .none
         }
         state.speakerIndex += 1
@@ -157,6 +157,7 @@ struct RecordMeetingView: View {
     }
     .navigationBarBackButtonHidden(true)
     .onAppear { store.send(.onAppear) }
+    .alert($store.scope(state: \.alert, action: \.alert))
   }
 }
 

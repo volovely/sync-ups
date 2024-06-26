@@ -24,6 +24,7 @@
 		794FED762C2AF879007B05E0 /* Meeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794FED752C2AF879007B05E0 /* Meeting.swift */; };
 		794FED782C2AF963007B05E0 /* AppFeatureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794FED772C2AF963007B05E0 /* AppFeatureTests.swift */; };
 		794FED7A2C2B0302007B05E0 /* RecordMeeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794FED792C2B0302007B05E0 /* RecordMeeting.swift */; };
+		799218522C2BED3500E0CBEA /* RecordMeetingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799218512C2BED3500E0CBEA /* RecordMeetingTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		794FED752C2AF879007B05E0 /* Meeting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meeting.swift; sourceTree = "<group>"; };
 		794FED772C2AF963007B05E0 /* AppFeatureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFeatureTests.swift; sourceTree = "<group>"; };
 		794FED792C2B0302007B05E0 /* RecordMeeting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordMeeting.swift; sourceTree = "<group>"; };
+		799218512C2BED3500E0CBEA /* RecordMeetingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordMeetingTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 				794FED6D2C2AA345007B05E0 /* SyncUpFormTests.swift */,
 				794FED712C2AEB91007B05E0 /* SyncUpDetailsTest.swift */,
 				794FED772C2AF963007B05E0 /* AppFeatureTests.swift */,
+				799218512C2BED3500E0CBEA /* RecordMeetingTests.swift */,
 			);
 			path = SyncUpsTests;
 			sourceTree = "<group>";
@@ -323,6 +326,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				799218522C2BED3500E0CBEA /* RecordMeetingTests.swift in Sources */,
 				794FED782C2AF963007B05E0 /* AppFeatureTests.swift in Sources */,
 				794FED6A2C29BBBF007B05E0 /* SyncUpsListTests.swift in Sources */,
 				794FED6E2C2AA345007B05E0 /* SyncUpFormTests.swift in Sources */,
